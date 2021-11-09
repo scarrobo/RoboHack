@@ -740,12 +740,20 @@ h6 {
     padding: 60px 0 30px 0;
 }
 
+#workshops h2:hover{
+    color: #f82249;
+}
+
 /*--------------------------------------------------------------
 # Projects Section
 --------------------------------------------------------------*/
 
 #projects {
     padding: 60px 0 30px 0;
+}
+
+#projects h2:hover{
+    color: #f82249;
 }
 
 /*--------------------------------------------------------------
@@ -806,6 +814,10 @@ h6 {
 
 #speakers .speaker:hover .details {
     bottom: 0;
+}
+
+.challenge-detail{
+    padding-top: 20px;
 }
 
 #speakers-details {
