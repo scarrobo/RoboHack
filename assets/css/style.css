@@ -733,27 +733,165 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Register Section
+--------------------------------------------------------------*/
+
+#register {
+    padding: 60px 0 0px 0;
+    text-align: center;
+}
+
+#register .row a{
+    font-size: 20px;
+    margin: 0;
+}
+
+#register .row a:hover{
+    color: #f82249;
+}
+
+/*--------------------------------------------------------------
+# About Us Section
+--------------------------------------------------------------*/
+
+#aboutus {
+    padding: 60px 0 0px 0;
+}
+
+/*--------------------------------------------------------------
 # Workshops Section
 --------------------------------------------------------------*/
 
-#workshops {
+#workshops-list, #workshops {
     padding: 60px 0 30px 0;
 }
 
-#workshops .container h2:hover{
+#workshops-list .container h2:hover{
     color: #f82249;
+}
+
+#workshops-list .time{
+    width: 15px;
+}
+
+#workshops .speaker {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#workshops .speaker .details {
+    background: rgba(6, 12, 34, 0.76);
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#workshops .speaker .details h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#workshops .speaker .details p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#workshops .speaker .details .social {
+    height: 40px;
+}
+
+#workshops .speaker .details .social i {
+    line-height: 0;
+    margin: 0 2px;
+}
+
+#workshops .speaker .details a {
+    color: #fff;
+}
+
+#workshops .speaker .details a:hover {
+    color: #f82249;
+}
+
+#workshops .speaker:hover .details {
+    bottom: 0;
 }
 
 /*--------------------------------------------------------------
 # Projects Section
 --------------------------------------------------------------*/
 
-#projects {
+#projects-list, #projects {
     padding: 60px 0 30px 0;
 }
 
-#projects .container h2:hover{
+#projects-list .container h2:hover{
     color: #f82249;
+}
+
+#projects-list .time{
+    width: 15px;
+}
+
+#projects .speaker {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#projects .speaker .details {
+    background: rgba(6, 12, 34, 0.76);
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#projects .speaker .details h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#projects .speaker .details p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#projects .speaker .details .social {
+    height: 40px;
+}
+
+#projects .speaker .details .social i {
+    line-height: 0;
+    margin: 0 2px;
+}
+
+#projects .speaker .details a {
+    color: #fff;
+}
+
+#projects .speaker .details a:hover {
+    color: #f82249;
+}
+
+#projects .speaker:hover .details {
+    bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -865,7 +1003,34 @@ h6 {
     margin-bottom: 10px;
 }
 
+.handout {
+    color: #fff;
+    background: #f82249;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 50px;
+    border: 2px solid #f82249;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 13px;
+    white-space: nowrap;
+}
 
+.handout:hover {
+    background: none;
+    color: #f82249;
+}
+
+.handout:focus {
+    color: #f82249;
+}
+
+@media (max-width: 992px) {
+    .handout {
+        margin: 0 15px 0 0;
+    }
+}
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
