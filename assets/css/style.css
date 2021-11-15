@@ -544,6 +544,11 @@ h6 {
     text-transform: uppercase;
 }
 
+#home h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
 #home h1 span {
     color: #f82249;
 }
@@ -657,6 +662,10 @@ h6 {
 #home .about-btn:hover {
     background: #f82249;
     color: #fff;
+}
+
+#home .slogan{
+    color: #f82249;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -895,7 +904,8 @@ h6 {
 }
 
 .emphasis {
-    font-family: Merriweather;
+    color: #18d26e;
+    font-size: 120%;
 }
 
 .link:hover {
