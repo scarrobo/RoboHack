@@ -137,7 +137,7 @@ h6 {
     font-size: 18px;
     font-weight: 500;
     /*color: #9195a2;*/
-	color: black;
+    color: black;
 }
 
 .section-with-bg {
@@ -518,7 +518,7 @@ h6 {
 
 #home .home-container {
     position: absolute;
-	bottom: 0;
+    bottom: 0;
     left: 0;
     top: 90px;
     right: 0;
@@ -664,7 +664,7 @@ h6 {
     color: #fff;
 }
 
-#home .slogan{
+#home .slogan {
     color: #f82249;
 }
 
@@ -741,6 +741,7 @@ h6 {
     color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Register Section
 --------------------------------------------------------------*/
@@ -750,14 +751,15 @@ h6 {
     text-align: center;
 }
 
-#register .row a{
+#register .row a {
     font-size: 20px;
     margin: 0;
 }
 
-#register .row a:hover{
+#register .row a:hover {
     color: #f82249;
 }
+
 
 /*--------------------------------------------------------------
 # About Us Section
@@ -767,19 +769,21 @@ h6 {
     padding: 60px 0 0px 0;
 }
 
+
 /*--------------------------------------------------------------
 # Workshops Section
 --------------------------------------------------------------*/
 
-#workshops-list, #workshops {
+#workshops-list,
+#workshops {
     padding: 60px 0 30px 0;
 }
 
-#workshops-list .container h2:hover{
+#workshops-list .container h2:hover {
     color: #f82249;
 }
 
-#workshops-list .time{
+#workshops-list .time {
     width: 15px;
 }
 
@@ -835,19 +839,21 @@ h6 {
     bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Projects Section
 --------------------------------------------------------------*/
 
-#projects-list, #projects {
+#projects-list,
+#projects {
     padding: 60px 0 30px 0;
 }
 
-#projects-list .container h2:hover{
+#projects-list .container h2:hover {
     color: #f82249;
 }
 
-#projects-list .time{
+#projects-list .time {
     width: 15px;
 }
 
@@ -912,6 +918,7 @@ h6 {
     color: #f82249;
 }
 
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -972,7 +979,7 @@ h6 {
     bottom: 0;
 }
 
-.challenge-detail{
+.challenge-detail {
     padding-top: 20px;
 }
 
@@ -1049,6 +1056,8 @@ h6 {
         margin: 0 15px 0 0;
     }
 }
+
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -1057,7 +1066,7 @@ h6 {
     padding: 60px 0 60px 0;
 }
 
-.blur{
+.blur {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
@@ -1620,6 +1629,7 @@ h6 {
 #contact .contact-info {
     margin-bottom: 20px;
     text-align: center;
+    margin-right: -50%;
 }
 
 #contact .contact-info i {
