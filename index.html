@@ -35,24 +35,6 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-
-  <script>
-    window.onscroll = function() {
-      growShrinkLogo()
-    };
-    
-    function growShrinkLogo() {
-      var Logo = document.getElementById("Logo")
-      if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-        Logo.style.width = '80px';
-        Logo.style.marginTop = '0px'
-      } else {
-        Logo.style.width = '200px';
-        Logo.style.marginTop = '150px';
-      }
-    }
-  </script>
-
 </head>
 
 <body>
@@ -803,5 +785,31 @@
     <script src="assets/js/main.js"></script>
 
 </body>
+
+<script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        var Logo = document.getElementById("Logo");
+        Logo.src = "assets/img/favicon.png"
+        Logo.style.width = '60px';
+        Logo.style.marginTop = '0px';
+        Logo.style.borderRadius = '0px';
+        Logo.style.backgroundColor = 'transparent';
+    } else {
+        window.onscroll = function() {
+            growShrinkLogo()
+        };
+          
+        function growShrinkLogo() {
+            var Logo = document.getElementById("Logo")
+            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                Logo.style.width = '80px';
+                Logo.style.marginTop = '0px';
+            } else {
+                Logo.style.width = '200px';
+                Logo.style.marginTop = '150px';
+            }
+        }
+    }
+  </script>
 
 </html>
