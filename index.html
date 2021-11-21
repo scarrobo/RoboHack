@@ -35,6 +35,24 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <script>
+    window.onscroll = function() {
+      growShrinkLogo()
+    };
+    
+    function growShrinkLogo() {
+      var Logo = document.getElementById("Logo")
+      if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+        Logo.style.width = '80px';
+        Logo.style.marginTop = '0px'
+      } else {
+        Logo.style.width = '200px';
+        Logo.style.marginTop = '150px';
+      }
+    }
+  </script>
+
 </head>
 
 <body>
@@ -46,7 +64,7 @@
             <div id="logo" class="me-auto">
                 <!-- Uncomment below if you prefer to use a text logo -->
                 <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-                <a href="index.html" class="scrollto"><img src="assets/img/robohacks-logo.png"></a>
+                <a href="index.html" class="scrollto"><img src="assets/img/robohacks-logo.png" id="Logo"></a>
             </div>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
@@ -54,9 +72,9 @@
                     <li><a class="nav-link scrollto active" href="#home">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#projects">Challenges</a></li>
+                    <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
                     <li><a class="nav-link scrollto" href="#workshops">Workshops</a></li>
                     <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
-                    <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
                     <li><a class="nav-link scrollto" href="#faq">FAQs</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 </ul>
@@ -103,7 +121,7 @@
         <!-- End About Section -->
 
         <!-- ======= Challenges Section ======= -->
-        <section id="projects" class="section-with-bg">
+        <section id="projects">
             <div class="section-header" data-aos="fade-up">
                 <!-- <a href="./challenges/challenges.html"> -->
                     <h2 class="link">Challenges</h2>
@@ -168,6 +186,73 @@
             </div>
         </section>
         <!-- End Challenges Section -->
+
+        <!-- ======= Supporters Section ======= -->
+        <section id="supporters" class="section-with-bg">
+
+          <div class="container" data-aos="fade-up">
+              <div class="section-header">
+                  <h2>Sponsors</h2>
+                  <p>Sponsors will be revealed soon!</p>
+              </div>
+
+              <div class="blur">
+                  <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                          <div class="supporter-logo">
+                              <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <!-- End Sponsors Section -->
 
         <!-- ======= Workshops Section ======= -->
         <section id="workshops">
@@ -499,75 +584,8 @@
         </section>
         <!-- End Schedule Section -->
 
-        <!-- ======= Supporters Section ======= -->
-        <section id="supporters">
-
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>Sponsors</h2>
-                    <p>Sponsors will be revealed soon!</p>
-                </div>
-
-                <div class="blur">
-                    <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="supporter-logo">
-                                <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- End Sponsors Section -->
-
         <!-- =======  F.A.Q Section ======= -->
-        <section id="faq" class="section-with-bg">
+        <section id="faq">
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
                     <h2>F.A.Qs</h2>
@@ -639,7 +657,7 @@
         <!-- End  F.A.Q Section -->
 
         <!-- Start Register Section -->
-        <section id="register">
+        <section id="register" class="section-with-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
@@ -659,7 +677,7 @@
         <!-- End Register Section -->
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="section-with-bg">
+        <section id="contact">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
@@ -724,7 +742,6 @@
                             <li><i class="bi bi-chevron-right"></i> <a href="#schedule">Schedule</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#supporters">Sponsors</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#faq">FAQs</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
                         </ul>
                     </div>
 
